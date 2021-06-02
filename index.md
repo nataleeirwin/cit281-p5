@@ -24,4 +24,4 @@ Accepts an integer, lifeChangeAmount, that represents the amount of life change,
 
 ## Here is what the expected output was supposed to be
 
-![Screenshot of expected output](https://github.com/nataleeirwin/cit281-p4/blob/main/p4%20files/example%20of%20p4-module.js.png)
+![Screenshot of expected output](https://github.com/nataleeirwin/cit281-p5/blob/main/p5%20files/Example%20output%20p5.png)
