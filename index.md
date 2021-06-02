@@ -1,37 +1,27 @@
-## Welcome to GitHub Pages
+# Project 5
 
-You can use the [editor on GitHub](https://github.com/nataleeirwin/cit281-p5/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+This project was an optional extra credit projectrd that involved creating a monster game that runs. It's learning objectives included gain experience working with classes, including class constructors and methods,interpreting existing code to design a new class, including constructor and methods, and executing and debugging Node.js code using VSCode, including module breakpoints.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+It also involved working with the concept of a gaming loop and  working with objects and arrays by using Array map() and forEach() methods.
 
-### Markdown
+Source code for this project can be found [here](https://github.com/nataleeirwin/cit281-p5)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Elements
 
-```markdown
-Syntax highlighted code block
+- Add _listMonsters()_ method that will list each of the monsters to the console. 
+- Create a Monster class that uses:
+      * constructor():
+          * Accepts an object parameter, deconstructs the object into the following variables and matching            this class properties, with the specified default values
+                * monsterName, defaults to "Unknown".
+                * minimumLife, defaults to 0, represents the minimum life value for the monster to be                      considered alive.
+                * currentLife, defaults to 100, represents the current life value that when decreases                       below minimumLife indicates the monster has died.
+- The constructor MUST accept an object, and use parameter object deconstruction to extract the parameter variables, and default object values, as specified
+- Sets the this class property isAlive to either true or false, depending on if the monster's currentLife >= minimumLife.
+     * The setting of isAlive MUST use a single line of code to set the initial Boolean value based on            currentLife >= minimumLife.
+- updateLife():
+Accepts an integer, lifeChangeAmount, that represents the amount of life change, either positive or negative. If the monster currentLife amount drops below 0, set the currentLife to 0. If currentLife < minimumLife, set isAlive to true.
+ * Your code MUST not use  any if() statements, using one line statement constructions, such as the ternary operator ( ? : ).
 
-# Header 1
-## Header 2
-### Header 3
+## Here is what the expected output was supposed to be
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/nataleeirwin/cit281-p5/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+![Screenshot of expected output](https://github.com/nataleeirwin/cit281-p4/blob/main/p4%20files/example%20of%20p4-module.js.png)
